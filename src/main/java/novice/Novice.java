@@ -32,6 +32,6 @@ public class Novice {
 
     public void reprintText() {
         System.out.println("Print your Name and press enter, please.");
-        System.out.printf(String.format("Your Name is: %s", this.scanner.next()));
+        System.out.println(String.format("Your Name is: %s", this.scanner.next()));
     }
 }

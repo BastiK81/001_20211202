@@ -38,7 +38,7 @@ public class Main {
 
     private static void callIntermediate(Scanner scanner) {
         int numberToText = 5;
-        int numberToTextList = 20;
+        int numberToTextList = 4;
         Intermediate intermediate = new Intermediate(scanner);
         List<String> numbersToText = intermediate.numbersToText(numberToTextList);
         System.out.println(numbersToText.toString());
